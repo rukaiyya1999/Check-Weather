@@ -14,7 +14,7 @@ const [city, setCity] = useState("")
   return (
     <div className = "container-fluid">
       <div className = "inner-container">
-        <input className="input-style" type = "search" placeholder = "Search City"
+        <input className="input-style" type = "search" placeholder = "Search City Name"
         value={search} onChange ={(e)=>{setSearch(e.target.value)}}/>
 
         {!city ? <p>No Data Available</p> :
